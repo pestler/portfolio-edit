@@ -33,3 +33,20 @@ body{
   background-image: url('./assets/svg/camera.svg');
   background-size: 62px 50px;
 }
+.video-player {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+price span {
+ display: block;
+ color: red;
+}
+
+::placeholder {
+  font-family: inherit;
+  color: #bdae82;
+  font-size: 20px;
+  resize: none
+}
