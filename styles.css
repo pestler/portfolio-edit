@@ -1,0 +1,35 @@
+
+body{
+  font-family: 'Merriweather', serif;
+  /* font-family: 'Inter', sans-serif;*/ 
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.header-container {
+  background: url('./assets/img/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center 0;
+}
+.hero-container {
+  background-image: url('./assets/img/header-bg.jpg');
+  background-position: center -90px;
+  background-repeat: no-repeat;
+}
+.skills-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skill-item {
+  background-position: center top;
+}
+.skill-item:nth-child(1) {
+  background-image: url('./assets/svg/camera.svg');
+  background-size: 62px 50px;
+}
