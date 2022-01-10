@@ -43,10 +43,13 @@ price span {
  display: block;
  color: red;
 }
-
+textarea {
+  display:block;
+}
 ::placeholder {
   font-family: inherit;
   color: #bdae82;
   font-size: 20px;
-  resize: none
+  resize: none;
 }
+
