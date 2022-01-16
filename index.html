@@ -151,38 +151,53 @@
           </li>
         </ul>
       </section>
-      <section class="section contacts">
+      <section id="contacts" class="section contacts">
         <div class="container">
-          <div class="title-container">
+          <div class="contacts-container">
             <h2 class="contact section-title">Contact me</h2>
-            <form class="contact-input">              
-            <input type="email" class="email" id="email"
-             name="email" placeholder="E-mail" required>
-            <input type="tel" class="tel" id="phone"
-             name="phone" placeholder="Phone" required>
-            <textarea class="message" placeholder="Message" required></textarea>
-            <button type="submit" class="button gold">Send message</button>
+            <form class="contact-input">
+              <input type="email" class="email form-input" id="email" name="email" placeholder="E-mail" required>
+              <input type="tel" class="tel form-input" id="phone" name="phone" placeholder="Phone" required>
+              <textarea class="message form-input" placeholder="Message" required></textarea>
+              <button type="submit" class="button gold">Send message</button>
             </form>
           </div>
         </div>
       </section>
     </div>
   </main>
-  <footer class="band">
+  <footer class="footer">
     <div class="container">
-      <span>©</span>
-      <span>2022</span>
-      <span>github</span>
-      <div>
-        Rolling Scopes School
-      </div>
-      <div class="social">
-        <ul>
-          <li><img src="#" alt=""></li>
-          <li><img src="#" alt=""></li>
-          <li><img src="#" alt=""></li>
-        </ul>
-      </div>
+      <div class="footer-data">
+        <p class="footer-data-item">©</p>
+        <p class="footer-data-item">2022</p>        
+        <a href="https://github.com/pestler" class="footer-data-item github" target="_blank">
+          github
+        </a>
+      </div>      
+        <a href="https://rs.school/js-stage0/" class="rss link" target="_blank">Rolling Scopes School</a>      
+      <ul class="social-list">
+        <li class="social-item">
+          <a href="https://www.instagram.com/" class="social-link link">
+          <img src="./assets/svg/inst.svg" alt="instagram">
+        </a>
+        </li>
+        <li class="social-item">
+          <a href="https://www.facebook.com/" class="social-link link">
+          <img src="./assets/svg/fb.svg" alt="facebook">
+        </a>
+        </li>
+        <li class="social-item">
+          <a href="https://twitter.com/" class="social-link link">
+          <img src="./assets/svg/tw.svg" alt="twitter">
+        </a>
+        </li>
+        <li class="social-item">
+          <a href="https://www.pinterest.com/" class="social-link link">
+          <img src="./assets/svg/pinterest.svg" alt="pinterest">
+        </a>
+        </li>
+      </ul>
     </div>
   </footer>
   <script src="script.js"></script>

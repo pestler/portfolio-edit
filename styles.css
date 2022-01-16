@@ -290,23 +290,19 @@ h1 {
   /*background-color: transparent;*/
 }
 
-.price{
-  
-}
-
 .price-list {
   display: flex;
   gap: 25px;
   width: 100%;
 }
 
-.price-item {  
+.price-item {
   display: flex;
   flex-direction: column;
   gap: 25px;
   align-items: center;
   width: 100%;
-  padding: 40px 0  40px 0;
+  padding: 40px 0 40px 0;
   border: 3px solid var(--color-gold);
 }
 
@@ -316,7 +312,7 @@ h1 {
   font-weight: bold;
   font-size: 28px;
   line-height: 56px;
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
 }
 
 .price-summa {
@@ -335,9 +331,84 @@ h1 {
 }
 
 .contacts .section-title::before,
-.contacts .section-title::after{
+.contacts .section-title::after {
   width: 0;
 }
-.contacts .container{
 
+.contacts .container {
+  background: url('./assets/img/contacts.jpg');
+  background-size: auto 700px;
+  padding-top: 60px;
+  padding-bottom: 195px;
+  background-position: center center;
+}
+
+.contacts-container {
+  width: 450px;
+  margin-left: auto;
+}
+
+.contacts .section-title {
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.contact-input {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-input {
+  font-family: inherit;
+  padding: 3px 19px;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  line-height: 40px;
+  color: var(--color-gold);
+  border: 2px solid var(--color-gold);
+}
+
+.message {
+  height: 100%;
+  resize: none;
+}
+
+.contact-input button {
+  margin-top: 10px;
+}
+
+.footer .container {
+  padding: 50px 0 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 50px;
+}
+
+.footer-data{
+  display: flex;  
+}
+.footer-data-item{
+margin-right: 20px;  
+}
+
+.github, .rss{
+  color: var(--color-white);
+}
+
+.social-list{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-link{
+  width: 32px;
+  height: 32px;  
+}
+.link{
+  line-height: 50px;
+  color: var(--color-white);
+  transition: all 0.5s linear;
 }
