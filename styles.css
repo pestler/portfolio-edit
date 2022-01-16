@@ -412,3 +412,7 @@ margin-right: 20px;
   color: var(--color-white);
   transition: all 0.5s linear;
 }
+
+.link:hover{
+  color: var(--color-gold);
+}
