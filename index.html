@@ -7,11 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:ital,wght@1,700&display=swap"
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&display=swap"
     rel="stylesheet" />
-  <link rel="icon" href="../assets/png/logo.ico" type="image/x-icon" />
+  <link rel="icon" href="./assets/svg/logo.ico">
   <link rel="stylesheet" type="text/css" href="reset.css" />
   <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
@@ -19,31 +18,41 @@
 <body>
   <header>
     <div class="container  header-menu">
-      <div class="header-logo">
+      <div class="header-logo menu-active">
       </div>
       <nav>
-        <ul class="menu">
-          <li><a href="#skills">
-              <h4>Skills</h4>
-            </a></li>
-          <li><a href="#portfolio">
-              <h4>Portfolio</h4>
-            </a></li>
-          <li><a href="#video">
-              <h4>Video</h4>
-            </a></li>
-          <li><a href="#price">
-              <h4>Price</h4>
-            </a></li>
-          <li><a href="#contacts">
-              <h4>Contacts</h4>
-            </a></li>
+        <ul class="menu-list">
+          <li>
+            <a href="#skills" class="menu-active menu">
+              Skills
+            </a>
+          </li>
+          <li>
+            <a href="#portfolio" class="menu-active menu">
+              Portfolio
+            </a>
+          </li>
+          <li>
+            <a href="#video" class="menu-active menu">
+              Video
+            </a>
+          </li>
+          <li>
+            <a href="#price" class="menu-active menu">
+              Price
+            </a>
+          </li>
+          <li>
+            <a href="#contacts" class="menu-active menu">
+              Contacts
+            </a>
+          </li>
         </ul>
       </nav>
       <div class="enru">
-        <h4 class="en">en</h4>
-        <h4>&nbsp;/&nbsp;</h4>
-        <h4 class="ru">ru</h4>
+        <p class="en">en</p>
+        <p>&nbsp;/&nbsp;</p>
+        <p class="ru">ru</p>
       </div>
     </div>
   </header>
@@ -55,7 +64,7 @@
           Save sincere emotions, romantic feelings and happy moments of life
           together with professional photographer Alexa Rise
         </p>
-        <button class="button gold">Hire me</button>
+        <button class="button gold hero-send">Hire me</button>
       </div>
     </section>
     <div class="container">
@@ -87,10 +96,10 @@
           <h2 class="section-title">Portfolio</h2>
         </div>
         <div class="button-group">
-          <button class="button  black">Winter</button>
-          <button class="button  black">Spring</button>
-          <button class="button  black">Summer</button>
-          <button class="button  black active gold"> Autumn</button>
+          <button class="button  black portfolio-active">Winter</button>
+          <button class="button  black portfolio-active">Spring</button>
+          <button class="button  black portfolio-active">Summer</button>
+          <button class="button  black active gold portfolio-active"> Autumn</button>
         </div>
         <div class="portfolio-img">
           <img src="./assets/img/portfolio-img.jpg" alt="portfolio-img">
@@ -108,9 +117,6 @@
         <div class="video-player">
           <img src="./assets/img/video_player.jpg" width="1400" height="705" alt="video-player">
           <button class="video-button button">
-            <svg class="play-hover">
-              <use xlink:href="./assets/svg/play_hover.svg" #play></use>
-            </svg>
           </button>
         </div>
       </section>
@@ -152,50 +158,50 @@
         </ul>
       </section>
     </div>
-      <section id="contacts" class="section contacts">
-        <div class="container">
-          <div class="contacts-container">
-            <h2 class="contact section-title">Contact me</h2>
-            <form class="contact-input">
-              <input type="email" class="email form-input" id="email" name="email" placeholder="E-mail" required>
-              <input type="tel" class="tel form-input" id="phone" name="phone" placeholder="Phone" required>
-              <textarea class="message form-input" placeholder="Message" required></textarea>
-              <button type="submit" class="button gold">Send message</button>
-            </form>
-          </div>
+    <section id="contacts" class="section contacts">
+      <div class="container">
+        <div class="contacts-container">
+          <h2 class="contact section-title">Contact me</h2>
+          <form class="contact-input">
+            <input type="email" class="email form-input" id="email" name="email" placeholder="E-mail" required>
+            <input type="tel" class="tel form-input" id="phone" name="phone" placeholder="Phone" required>
+            <textarea class="message form-input" placeholder="Message" required></textarea>
+            <button type="submit" class="button gold">Send message</button>
+          </form>
         </div>
-      </section>   
+      </div>
+    </section>
   </main>
   <footer class="footer">
     <div class="container">
       <div class="footer-data">
         <p class="footer-data-item">©</p>
-        <p class="footer-data-item">2022</p>        
+        <p class="footer-data-item">2022</p>
         <a href="https://github.com/pestler" class="footer-data-item github link" target="_blank">
           github
         </a>
-      </div>      
-        <a href="https://rs.school/js-stage0/" class="rss link" target="_blank">Rolling Scopes School</a>      
+      </div>
+      <a href="https://rs.school/js-stage0/" class="rss link" target="_blank">Rolling Scopes School</a>
       <ul class="social-list">
         <li class="social-item">
           <a href="https://www.instagram.com/" class="social-link ">
-          <img src="./assets/svg/inst.svg" alt="instagram">
-        </a>
+            <img src="./assets/svg/inst.svg" class="social-gold" alt="instagram">
+          </a>
         </li>
         <li class="social-item">
           <a href="https://www.facebook.com/" class="social-link ">
-          <img src="./assets/svg/fb.svg" alt="facebook">
-        </a>
+            <img src="./assets/svg/fb.svg" class="social-gold" alt="facebook">
+          </a>
         </li>
         <li class="social-item">
           <a href="https://twitter.com/" class="social-link link">
-          <img  src="./assets/svg/tw.svg" alt="twitter" >
-        </a>
+            <img src="./assets/svg/tw.svg" class="social-gold" alt="twitter">
+          </a>
         </li>
         <li class="social-item">
           <a href="https://www.pinterest.com/" class="social-link ">
-          <img src="./assets/svg/pinterest.svg" alt="pinterest">
-        </a>
+            <img src="./assets/svg/pinterest.svg" class="social-gold" alt="pinterest">
+          </a>
         </li>
       </ul>
     </div>
