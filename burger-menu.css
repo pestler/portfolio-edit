@@ -1,0 +1,31 @@
+/*gamburger-menu*/
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    user-select: none;
+    z-index: 2;    
+}
+.line {
+    width: 80%;
+    height: 2px;
+    background:white;
+    margin: 3px 0;
+    z-index: 15;
+    transition: all 0.3s ease-in-out;
+}
+.hamburger.open .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.hamburger.open .line2 {
+    opacity: 0;
+}
+.hamburger.open .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+

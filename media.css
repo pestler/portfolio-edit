@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    .container {
+        width: calc(100% - 40px);
+      }
+    nav {
+      display: none;
+    }
+    .hamburger{
+        display: flex ;
+        margin-right: 64px;
+    }
+   .hero,
+   .header-menu{
+    background-image: url('./assets/img/header-bg-small.jpg');
+   } 
+
+   .header-menu{
+    justify-content: start;
+   }
+   .enru{
+       margin-left: auto;
+   }
+  
+  }
