@@ -1,22 +1,4 @@
 @media (max-width: 768px) {
-  .container {
-    width: calc(100% - 40px);
-  }
-
-  nav {
-    display: none;
-  }
-
-  .hamburger {
-    display: flex;
-    margin-right: 64px;
-  }
-
-  .hero,
-  .header-menu {
-    background-image: url('./assets/img/header-bg-small.jpg');
-    width: 100%;
-  }
 
   /*fonts*/
   h1 {
@@ -49,14 +31,48 @@
     line-height: 24px;
   }
 
-  /*fonts*/
+  /*fonts---end*/
+  nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    margin-right: 105px;
+    margin-left: 25px;
+  }
+
+  .ru {
+    margin-left: 15px;
+  }
+
+  .flash {
+    margin-left: -3px;
+  }
+
+  .container {
+    max-width: 768px;
+    padding: 0;
+  }
+
+  .header-logo {
+    margin: 20px 0 20px 20px;
+  }
 
   .header-menu {
-    justify-content: start;
+    overflow-x: hidden;
+
   }
 
   .enru {
     margin-left: auto;
+  }
+
+  .hero {
+    height: 500px;
+    padding-top: 78px;
+    background-position: -50px -120px;
+    background-size: auto 620px;
   }
 
   .button-group {
@@ -64,11 +80,74 @@
     width: 445px;
   }
 
+  .hero-div {
+    width: 470px;
+    height: 330px;
+    margin: 175px 0 330px 20px;
+  }
+
+  .hero-content {
+    width: 390px;
+    height: 72px;
+    margin-bottom: 60px;
+    padding-top: 20px;
+  }
+
+  .hero-send {}
+
   .button-group {
     margin-left: 62px;
   }
-  
+
   .portfolio-img>img {
-    margin-left: 42px;
+    width: 450px;
+    height: 560px;
   }
+
+  .portfolio-img {
+    justify-content: center;    
+  }
+
+  .price-list {
+    justify-content: center;
+    flex-direction: column
+  }
+
+  .price-item {
+    flex-basis: 420px;
+    max-width: 420px;
+  }
+
+  .norm-img {
+    width: 768px;
+    height: 418px;
+  }
+
+  .contacts .container {
+    height: 600px;
+    background-size: auto 600px;
+  }
+  .contacts-container{
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+
+
+
+
+  .footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+
+
 }
