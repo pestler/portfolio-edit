@@ -34,9 +34,21 @@ console.log('(1) Вёрстка валидная (+10)\n',
     'Score: 100\n',
 )
 
-/*g-menu*/
+
 const hamburger = document.querySelector('.hamburger');
+const menu = document.querySelector('.menu-active');
+const nav = document.querySelector('.nav-active');
+
+
 function toggleMenu() {
     hamburger.classList.toggle('open');
+    nav.classList.toggle('open')
 }
 hamburger.addEventListener('click', toggleMenu);
+
+
+
+
+
+
+

@@ -28,10 +28,11 @@ body {
   font-weight: normal;
   font-size: 20px;
   line-height: 40px;
+  overflow-x: hidden;
 }
 
 .container {
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -485,7 +486,7 @@ h1 {
 }
 
 .social-gold:hover,
-.menu-active:hover {
+.menu-link:hover {
   filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
 }
 
